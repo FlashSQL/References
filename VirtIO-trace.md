@@ -11,13 +11,13 @@
 - 현재 리눅스 커널에서 사용가능한 I/O 추적 도구는 `blktrace` 하나뿐이나 마찬가지
 - `VM`의 도입으로 인해서 최소 3개의 레이어에서 I/O를 처리 (아래 그림 참조)
 
-![1523862378580](VirtIO-trace.assets/1523862378580.png)
+![1523862378580](http://dl.dropbox.com/s/eodp2kne90ao5l1/1523862378580.png?dl=0)
 
 
 
 ## 현재 시스템의 문제점
 
-![1523862405942](VirtIO-trace.assets/1523862405942.png)
+![1523862405942](http://dl.dropbox.com/s/8jgsvo6x9kpsk0q/1523862405942.png?dl=0)
 
 - VM 상황에서의 정확한 I/O 추적을 위해서는 VM의 커널 I/O, QEMU의 I/O 처리부, 호스트의 커널 I/O에 대한 로그 추적 필요 
 - `blktrace`만 사용할 경우
@@ -36,7 +36,7 @@
 
 ## VirtIO-trace
 
-![1523862751151](VirtIO-trace.assets/1523862751151.png)
+![1523862751151](http://dl.dropbox.com/s/yufc17vomyw0wed/1523862751151.png?dl=0)
 
 ### 구성
 
